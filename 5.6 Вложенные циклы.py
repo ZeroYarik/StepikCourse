@@ -33,13 +33,13 @@
 #     t[i] = v
 # print(t)
 
-M, N = map(int, input().split())
-
-zeros = []
-for i in range(M):
-    zeros.append([0] * N)
-
-print(zeros)
+# M, N = map(int, input().split())
+#
+# zeros = []
+# for i in range(M):
+#     zeros.append([0] * N)
+#
+# print(zeros)
 #
 # for i in range(M):
 #     for j in range(N):
@@ -141,4 +141,24 @@ print(zeros)
 #         res.append(lst[i])
 #
 # print(*res)
+
+lst_in = [[1, 0, 0, 0, 1],
+        [0, 0, 0, 0 ,0],
+        [0, 0 ,0, 0, 0],
+        [0, 0 ,0 ,0, 0],
+        [0, 0, 0, 0 ,0]]
+
+for i in range(len(lst_in)-1):
+    for j in range(len(lst_in)-1):
+        if (lst_in[i][j] + lst_in[i][j+1]) + (lst_in[i+1][j] + lst_in[i+1][j+1]) <= 1:
+            print("ДА")
+break
+
+
+
+
+
+
+
+
 

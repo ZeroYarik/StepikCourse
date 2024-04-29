@@ -33,7 +33,6 @@
 # count = 1
 # c = [count]
 # a = [[0 * i for i in range(num)] for j in range(num)]
-# # nums.append([0] * num)
 # print(*a, sep='\n')
 
 # Вводятся названия городов в строку через пробел. Необходимо сформировать список с помощью list comprehension,

@@ -31,14 +31,14 @@
 
 # Вводятся три строчки стихотворения (каждая с новой строки). Сохранить его в виде вложенного списка с разбивкой по
 # строкам и словам (слова разделяются пробелом). Результирующий список lst вывести на экран командой:
-# list = []
-# line1 = input().split()
-# line2 = input().split()
-# line3 = input().split()
-# list.append(line1)
-# list.append(line2)
-# list.append(line3)
-# print(list)
+list = []
+line1 = input().split()
+line2 = input().split()
+line3 = input().split()
+list.append(line1)
+list.append(line2)
+list.append(line3)
+print(list)
 
 # Вводится  матрица чисел из трех строк. В каждой строке числа разделяются пробелом.
 # Необходимо вывести на экран последний столбец этой матрицы в виде строки из трех чисел через пробел.

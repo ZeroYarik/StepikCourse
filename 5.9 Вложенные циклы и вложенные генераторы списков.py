@@ -87,15 +87,15 @@
 # lst_in = [[row[i] for row in lst_in] for i in len(lst_in[0])]
 # print(lst_in)
 
-import sys
-
-# считывание списка из входного потока
-s = sys.stdin.readlines()
-lst_in = [list(map(int, x.strip().split())) for x in s]
-
-# здесь продолжайте программу (используйте список lst_in)
-n = len(lst_in)
-m = len(lst_in[0])
-l = [[lst_in[j][i] for j in range(n)] for i in range(m)]
-for row in l:
-    print(*row)
+# import sys
+#
+# # считывание списка из входного потока
+# s = sys.stdin.readlines()
+# lst_in = [list(map(int, x.strip().split())) for x in s]
+#
+# # здесь продолжайте программу (используйте список lst_in)
+# n = len(lst_in)
+# m = len(lst_in[0])
+# l = [[lst_in[j][i] for j in range(n)] for i in range(m)]
+# for row in l:
+#     print(*row)
